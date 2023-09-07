@@ -1,0 +1,24 @@
+//EL programa se cierra hasta encontrar un numero negativo
+#include <stdio.h>
+#include <math.h>
+
+int main(int argc, char **argv)
+{
+	int n;
+	
+	printf("Eliga un numero\n");
+	scanf("%d", &n);
+	
+	while(n>=0)
+	{
+		scanf("%d\n",n);
+	}
+	if(n<0)
+	{
+		printf("Numero no valido");
+	}
+	
+	
+	
+	return 0;
+}
