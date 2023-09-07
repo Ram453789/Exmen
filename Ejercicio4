@@ -1,0 +1,23 @@
+//Programa que muestra una lista de numeros impares
+#include <stdio.h>
+#include <math.h>
+int main()
+{
+	int list;
+	
+	printf("A partir de donde quiere comenzar su lista: ");
+	scanf("%d", &list);
+	
+	
+	if (list%2==0)
+	{
+		list--;
+	}
+	while(list>=1)
+	{
+		printf("%d\n",list);
+		list-=2;
+	}
+	
+	return 0;
+}
