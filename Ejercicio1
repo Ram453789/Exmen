@@ -1,0 +1,21 @@
+//Programa que muestra una lista de los 10 siguientes numeros a el numero asignado
+#include <stdio.h>
+
+int main ()
+{
+	int ininum;
+	
+	printf("Numero con el que quiere empezar:\n");
+	scanf("%d", &ininum);
+	
+	int a=0;
+	
+	while (a <= 10-1)
+	{
+		printf("%d\n", ininum+1);
+		ininum++;
+		a++;
+		
+	}
+	return 0;	
+}
