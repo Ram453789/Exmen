@@ -1,0 +1,19 @@
+//Programa que te muestra las tablas de multiplicar
+#include <stdio.h>
+
+int main()
+{
+	int tab;
+	int numtab=1;
+	
+	printf("Que tabla quiere conocer:  ");
+	scanf("%d", &tab);
+	
+	while(numtab<=10)
+	{
+		printf("%dx%d=%d\n",numtab, tab, tab*numtab);
+		numtab++;
+	}
+	
+	return 0;
+}
